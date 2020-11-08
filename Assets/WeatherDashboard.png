@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
+<!-- saved from url=(0083)file:///C:/Users/sutto/Documents/bootcamps/assignments/WeatherDashboard/index.html? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <title>Weather Dashboard</title>
   <!-- Bootstrap CSS CDN  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./WeatherDashboard_files/bootstrap.min.css">
 
   <!-- Font Awesome CSS Icons (For cool glyphicons) -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./WeatherDashboard_files/font-awesome.min.css">
 
   <!-- Style to fix the issue of text extending past card length -->
   <style>
@@ -67,17 +66,15 @@
                 <i class="fa fa-trash"></i> Clear Results</button>
                 <!-- Here we capture the number of records that the user wants to retrieve  -->
               <div id="currentweather">
-                <!--
-                <label for="pwd">Number of Records to Retrieve:</label>
-                <select id="record-count" class="custom-select" aria-labelledby="dropdownMenuButton">
-                  <option selected value="1">1</option>
-                  // Setting the option for 5 as default
-                  <option value="8" selected>5</option>
-                  <option value="10">10</option>
-                </select>
-              -->
-
-              </div>
+  <div class="card b-primary">
+  <h1>Truckee</h1>
+  <p>Temp: 27.93 °F</p>
+  <p>Humidity: 95</p>
+  <p>Wind Speed: 9.17</p>
+  <p>Description: overcast clouds</p>
+  <img src="./WeatherDashboard_files/04n@2x.png">
+  </div>
+  </div>
 
               <div>
 
@@ -105,7 +102,52 @@
 
           <!-- This main card will hold each of the resulting articles -->
           <div class="card-body" id="weatherRecord-section">
-          </div>
+          
+      <div class="card b-primary">
+      <h6>2020-11-08 03:00:00}</h6>
+      <p>Temp: 27.32</p>
+      <p>Humidity: 91</p>
+      <p>Wind Speed: 8.72</p>
+      <p>Description: light snow</p>
+      <img src="./WeatherDashboard_files/13n@2x.png">
+      </div>
+      
+      <div class="card b-primary">
+      <h6>2020-11-09 03:00:00}</h6>
+      <p>Temp: 13.35</p>
+      <p>Humidity: 92</p>
+      <p>Wind Speed: 2.26</p>
+      <p>Description: few clouds</p>
+      <img src="./WeatherDashboard_files/02n@2x.png">
+      </div>
+      
+      <div class="card b-primary">
+      <h6>2020-11-10 03:00:00}</h6>
+      <p>Temp: 20.73</p>
+      <p>Humidity: 93</p>
+      <p>Wind Speed: 1.19</p>
+      <p>Description: broken clouds</p>
+      <img src="./WeatherDashboard_files/04n@2x.png">
+      </div>
+      
+      <div class="card b-primary">
+      <h6>2020-11-11 03:00:00}</h6>
+      <p>Temp: 28.94</p>
+      <p>Humidity: 96</p>
+      <p>Wind Speed: 3.94</p>
+      <p>Description: few clouds</p>
+      <img src="./WeatherDashboard_files/02n@2x.png">
+      </div>
+      
+      <div class="card b-primary">
+      <h6>2020-11-12 03:00:00}</h6>
+      <p>Temp: 23.31</p>
+      <p>Humidity: 91</p>
+      <p>Wind Speed: 1.36</p>
+      <p>Description: clear sky</p>
+      <img src="./WeatherDashboard_files/01n@2x.png">
+      </div>
+      </div>
         </div>
 
       </div>
@@ -113,14 +155,14 @@
   </div>
 
   <!-- jQuery JS -->
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="./WeatherDashboard_files/jquery.js.download"></script>
+  <script src="./WeatherDashboard_files/bootstrap.bundle.min.js.download"></script>
   <!-- Code to the JavaScript File -->
-  <script src="./Assets/Js/code.js"></script>
+  <script src="./WeatherDashboard_files/code.js.download"></script>
 
-</body>
 
-</html>
+
+
 
 
 
@@ -187,4 +229,4 @@
 </body>
 
 </html>
--->
+--></body></html>
